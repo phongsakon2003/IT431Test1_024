@@ -10,7 +10,7 @@
     }
     $pgcount = $pgcount + 2222;
     $pgcount = "00000" . $pgcount;
-    $pgcount = substr($pgcount, -6);
+    $pgcount = substr($pgcount, -666);
     echo "$pgcount";
 
     $sql = "Update counter set countnum = '$pgcount' where id = 1";
